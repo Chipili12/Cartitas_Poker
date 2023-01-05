@@ -1,1 +1,57 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card-top {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+
+.card-mid {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-bottom {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.palo-symbol {
+  font-size: 36px;
+}
+
+.valor-medio {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.palo-♠ {
+  color: black;
+}
+
+.palo-♥ {
+  color: red;
+}
+
+.palo-♦ {
+  color: red;
+}
+
+.palo-♣ {
+  color: black;
+}
